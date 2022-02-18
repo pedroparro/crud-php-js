@@ -1,0 +1,154 @@
+/*Author: Pedro Parro*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+}
+section {
+    width: 100%;
+    height: 900px;
+}
+section#notas {
+    width: 100%;
+    height: 900px;
+    padding-top: 150px;
+}
+/*menu*/
+.navbar {
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    background-color: darkblue;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    z-index: 999;
+}
+.navbar ul {
+    list-style-type: none;
+    margin-left: 800px;
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 3px;
+    display: inline-flex;
+    align-items: center;
+}
+.navbar li {
+    float: right;
+    border-right: 1px solid #333;
+}
+.navbar li a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    outline: 0;
+}
+.navbar li a:hover {
+    background-color: #333;
+    color: #fff;
+}
+.navbar img {
+    margin-left: 10px;
+}
+/*h2*/
+.title-h2 {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    margin-top: 90px;
+    position: fixed;
+    z-index: 999;
+    font-size: 20px;
+}
+/*page index*/
+.form-index {
+    width: 600px;
+    height: 600px;
+    background-color: rgb(3, 3, 71);
+    border-radius: 3px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    transform: translate(-50%,-50%);
+    box-shadow: inset 0 0 1em white, 0 0 1em rgb(1, 20, 83);
+    margin-top: 0px;
+}
+
+/*div forms*/
+.forms {
+    width: 500px;
+    height: 70px;
+    position: relative;
+    display: inline-block;
+    left: 50%;
+    justify-content: space-between;
+    align-items: center;
+    transform: translate(-50%);
+    margin-top: 5px;
+    margin-left: -20px;
+    z-index: 999;
+}
+/*label*/
+.forms label {
+    width: 300px;
+    display: inline-block;
+    padding: 10px;
+    color: #fff;
+}
+/*input*/
+.forms input {
+    width: 500px;
+    height: 35px;
+    margin-left: 0px;
+    padding-left: 5px;
+    border-radius: 3px;
+    outline: 0;
+    border: 0;
+}
+/*select*/
+.forms select {
+    width: 500px;
+    height: 35px;
+    margin-left: 0px;
+    padding-left: 5px;
+    border-radius: 3px;
+    border: 0;
+    outline: 0;
+}
+/*button*/
+button {
+    display: block;
+    width: 500px;
+    height: 35px;
+    margin-left: 10px;
+    border-radius: 3px;
+    outline: 0;
+    border: 0;
+}
+
+/*end page index*/
+/*footer*/
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: darkblue;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    padding: 15px;
+}
